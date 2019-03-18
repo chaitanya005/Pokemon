@@ -6,8 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/pokemon.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/animate.css">
+
 
 	<title>Pokemon | Company</title>
 
@@ -20,11 +22,11 @@
 </head>
 
 <body>
-
-	<div class="container">
 <!--	navbar start here-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
 <!--       navbar-static-top - used to fix top-->
-       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       
   <a class="navbar-brand" href="#">Pokemon</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -56,42 +58,132 @@
 
     </ul>
   </div>
-</nav>
-<!--    navbar ends here-->
+    </div>
+    </nav>
+    <!--    navbar ends here-->
+    
 
-<!--crousel starts here-->
+<!--       Carousel Starts here-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/slide1.jpeg" alt="First slide">
+                  <div class="container">
+                      <div class="carousel-caption">
+                          <h1>Lorem ipsum dolor sit amet.</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit aliquid beatae voluptate eum neque modi ducimus, earum reiciendis nostrum odit?</p>
+                          <p><a href="#" class="btn btn-primary btn-lg">Know more</a></p>
+                      </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
+                  <div class="carousel-caption">
+                          <h1>Lorem ipsum dolor sit amet.</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit aliquid beatae voluptate eum neque modi ducimus, earum reiciendis nostrum odit?</p>
+                      <p><a href="#" class="btn btn-primary btn-lg">LearnMore</a></p>
+                          
+                      </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide3.jpeg" alt="Third slide">
+                  <div class="carousel-caption">
+                          <h1>Lorem ipsum dolor sit amet.</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit aliquid beatae voluptate eum neque modi ducimus, earum reiciendis nostrum odit?</p>
+                          <p><a href="#" class="btn btn-primary btn-lg">LearnMore</a></p>
+                      </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>        
+<!--        caraousel ends here-->
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="..." alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+<!--team section start here-->
+<div class="container team">
+    <div class="row">
+        <div class="col-lg-4">
+        <img src="images/boy.jpg" alt="memberImage" class="img-circle animated lightSpeedI" width="100px" height="100px"> 
+        <h1>TeamMember 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim harum pariatur optio sequi laboriosam mollitia labore numquam molestias molestiae.</p>
+        <a href="#" class="btn btn-primary btn-lg">Contact &raquo;</a>
         </div>
-<!--crousel ends here-->
-	</div>
+        <div class="col-lg-4">
+        <img src="images/boy.jpg" alt="memberImage" class="img-circle" width="100px" height="100px"> 
+        <h1>TeamMember 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim harum pariatur optio sequi laboriosam mollitia labore numquam molestias molestiae.</p>
+        <a href="#" class="btn btn-primary btn-lg">Contact &raquo;</a>
+        </div>
+        <div class="col-lg-4">
+        <img src="images/boy.jpg" alt="memberImage" class="img-circle" width="100px" height="100px"> 
+        <h1>TeamMember 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde enim harum pariatur optio sequi laboriosam mollitia labore numquam molestias molestiae.</p>
+        <a href="#" class="btn btn-primary btn-lg">Contact &raquo;</a>
+            
+        </div>
+    </div>
+</div>
+<!--team section ends here-->
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<hr class="divider">
+
+
+
+<!--content section starts here-->
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/buildings.jpg"> </div>
+<hr class="divider">
+<div class="row content">
+   
+    <div class="col-md-5">
+        <img src="images/paying-kid.jpg" alt="playing-kid" class="content-image img-responsive center-block">
+    </div>
+    <div class="col-md-7 section">
+        <h2 class="content-heading">Content of the page
+        </h2>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quisquam, non voluptatem maxime illo eveniet ex accusantium consequatur beatae laboriosam explicabo animi aperiam saepe natus a, ipsam, velit veritatis dolorum?</p>
+    </div>
+    
+
+</div>
+<hr class="divider">
+<div class="row content">
+    <div class="col-md-7 section">
+        <h2 class="content-heading">Content of the page
+        </h2>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quisquam, non voluptatem maxime illo eveniet ex accusantium consequatur beatae laboriosam explicabo animi aperiam saepe natus a, ipsam, velit veritatis dolorum?</p>
+    </div>
+    <div class="col-md-5">
+        <img src="images/paying-kid.jpg" alt="playing-kid" class="content-image img-responsive center-block">
+    </div>
+</div>
+<!--content section ends here-->
+
+
+
+<!--footer section starts here-->
+<footer>
+    <p class="pull-right"><i class="fa fa-arrow-circle-up "></i>Move to top</p>
+    <p > &copy; 2019 Pokemon,Inc. <a href="#">Terms </a>&middot; <a href="#">Conditions </a> &middot;</p>
+    
+</footer>
+<!--footer section ends here-->
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+<!--    For using  Parallax we must include -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="css/parallax.js"></script>
 
 	<script>
 	</script>

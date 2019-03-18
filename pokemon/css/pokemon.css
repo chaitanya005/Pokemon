@@ -5,3 +5,45 @@
 body , .form-control, .btn ,.dropdown-menu{
     font-size:1.8rem !important;
 }
+
+.carousel-inner{
+    top: 0;
+}
+
+.row{
+    padding-top: 10px;
+}
+
+.team .col-lg-4{
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divider{
+    margin: 40px 0;
+}
+
+.section{
+    padding-left: 50px !important;
+    text-align: center;
+    padding-top: 200px;
+}
+
+footer{
+    margin: 0 80px; 
+ 
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    z-index: 1;
+}
+
+
